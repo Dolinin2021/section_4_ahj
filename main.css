@@ -1,0 +1,309 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.card {
+    float: left;
+    width: 39px;
+    height: 25px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px;
+}
+
+.headmast h1 {
+    font-size:2.5em;
+    margin:0
+}
+
+.headmast h2 {
+    font-size:1.8em;
+    margin:0
+}
+
+h3 {
+    font-size:1.3em
+}
+
+.headmast {
+    text-align:center
+}
+
+.glyphicon {
+    vertical-align:0%!important;
+    margin-left:5px
+}
+
+.justify {
+    text-align:justify
+}
+
+.center {
+    text-align:center
+}
+
+.navbar {
+    margin-bottom:15px;
+    min-height:40px
+}
+
+.navbar-brand {
+    padding-top:10px;
+    height:40px;
+    font-weight:700;
+    font-size:16px
+}
+
+.navbar-brand>img {
+    display:initial
+}
+
+
+.navbar-nav>li>a {
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+.cards {
+    margin:10px 0;
+    height:25px
+}
+
+.cards li {
+    display:block;
+    float:left
+}
+
+.card {
+    float:left;
+    width:39px;
+    height:25px;
+    text-indent:-9999px;
+    background-position:0 0;
+    margin-right:4px
+}
+
+#submitform {
+    margin-left:10px
+}
+
+.card.cdisabled {
+    background-position:0 -25px;
+    opacity:.3
+}
+
+.card.visa {
+    background-image:url(https://www.validcreditcardnumber.com/static/img/card-visa.gif)
+}
+
+.card.amex {
+    background-image:url(https://www.validcreditcardnumber.com/static/img/card-amex.gif)
+}
+
+.card.jcb {
+    background-image:url(https://www.validcreditcardnumber.com/static/img/card-jcb.gif)
+}
+
+.card.master {
+    background-image:url(https://www.validcreditcardnumber.com/static/img/card-mastercard.gif)
+}
+
+.card.discover {
+    background-image:url(https://www.validcreditcardnumber.com/static/img/card-discover.gif)
+}
+
+.card.diners_club {
+    background-image:url(https://www.validcreditcardnumber.com/static/img/card-diners.gif)
+}
+
+.card.world {
+    background-image:url(http://evgenykatyshev.ru/projects/mir-logo/mir-logo-h14px.png);
+    width:49px;
+    height:14px;
+    /* background-color: gray; */
+}
+
+@media (min-width: 992px) {
+    .col-md-5 {
+        width: 41.66666667%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: left;
+    }
+
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+
+.row::before {
+    display: table;
+    content: " ";
+}
+
+.form-control {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#submitform {
+    margin-left: 10px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    border-radius: 4px;
+}
+
+.table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+}
+
+.table-bordered > tbody > tr > td {
+    border: 1px solid #ddd;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: 4px;
+  }
+
+.tooltip {
+    top: 119.017px;
+    left: 0px;
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    text-align: start;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    line-break: auto;
+}
+
+.tooltip.bottom {
+    padding: 5px 0;
+    margin-top: 3px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+      border-bottom-color: transparent;
+    border-style: solid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map*/
